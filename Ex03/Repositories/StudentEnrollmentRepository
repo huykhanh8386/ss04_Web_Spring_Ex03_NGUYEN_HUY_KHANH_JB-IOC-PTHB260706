@@ -1,0 +1,9 @@
+package com.example.exsession04.Models.Repositories;
+
+import com.example.exsession04.Models.Entities.Student;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface StudentEnrollmentRepository extends JpaRepository<Student, Long> {
+}

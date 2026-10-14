@@ -1,0 +1,5 @@
+package com.example.exsession04.Models.Entities;
+
+public enum CoureStatus {
+    active,inactive, draft
+}
